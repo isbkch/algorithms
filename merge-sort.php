@@ -6,7 +6,7 @@
  */
 
 
-function merge_sort(&$arrayToSort)
+function divide(&$arrayToSort)
 {
     if (sizeof($arrayToSort) <= 1) {
         return $arrayToSort;
@@ -21,8 +21,8 @@ function merge_sort(&$arrayToSort)
   
     // RECURSION
     // split the two halves into their respective halves...
-    $leftHalf  = merge_sort($leftHalf);
-    $rightHalf = merge_sort($rightHalf);
+    $leftHalf  = divide($leftHalf);
+    $rightHalf = divide($rightHalf);
 
     $returnArray = merge($leftHalf, $rightHalf);
 
