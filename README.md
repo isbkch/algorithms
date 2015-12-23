@@ -1,4 +1,4 @@
-Following a personnal challenge of one algorithm implementation a day.
+Following a personnal challenge of one personnal algorithm implementation a week.
 
 # algorithms implemented
 - Merge Sort Algorithm - php
